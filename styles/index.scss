@@ -1,0 +1,97 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+
+body {
+  background: #fff;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;//эту строку скопировали с сайта "fonts.google.com чтобы работал шрифт "Roboto". Указываем семейство шрифтов "Roboto", а "sans-serif" означет - "без засечек"
+  color: #272727
+}
+.header { // через точку задаем стили для определенных классов
+  background-color: #f4f4f4; //bgc
+  padding-top: 14px; //отступ сверху
+  padding-bottom: 14px; //отступ снизу
+}
+.container {
+  max-width: 1107px; //ограничиваем максимальную ширину для класса ".container", maw
+  //border: 1px solid red;
+  margin: auto; //располагает контейнер всегда по середине
+}
+.header-wrap {
+  display: flex; //располагает все эелементы в 1 ряд
+  justify-content: space-between; // разделяет элементы, jst
+}
+.logo{
+  font-size: 16px;//размер
+  font-weight: 700;//толщина
+  color: #95989a;
+}
+.nav {
+  flex-basis: 80%;//под навигацию выделяем 80% всей ширины
+}
+.nav__link {
+  font-size: 12px;
+  color: #95989a;
+  text-decoration: none;//убираем нижнее подчеркивание ссылки, tdn
+  margin-right: 20px;// отступ от каждого элемента в этом блоке 20px справа, mr20px
+}
+.login {
+  font-size: 12px;
+  color: #95989a;
+  text-decoration: none;
+  text-transform: uppercase;//делает все буквы заглавными-большими ,ttu
+}
+.tabs {
+  display: flex;
+  align-items: center;//выровнять элементы по середине друг относительно друга в вертикали, aic
+  justify-content: space-between;
+  border-bottom: 1px solid #eaeaea;//задаем линию
+  margin-bottom: 20px;//создаем отступ под линией, чтобы к ней не "прилипали" следующие обьекты
+}
+.tabs-logo {
+  font-size: 20px;
+  color: #95989a;
+  //margin: 0;
+}
+.tabs-menu {
+  list-style: none;
+  padding: 0;//внутренние отступы равны "0"
+  display: flex;
+}
+.tabs-menu__item {
+  margin-left: 15px;//, ml15
+  position: relative; //, por
+}
+/*.tabs-menu__item:after { //добавляем выделение таба
+  content: '';
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #fcde29;
+}*/
+.tabs-content {
+  background: #f2f4ff url('https://i.imgur.com/iBd59zk.png') no-repeat bottom right 135px;//помимо цвета, для фона, задаем изображение через ссылку на источник изображения, "no-repeat" указывает запрет повторения, чтобы картинка отобразилась только 1 раз а не заполняла все пространство.
+  border-radius: 10px;//скургление углов
+  padding-top: 40px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 43px;
+}
+.tabs-content__title {
+  font-size: 36px;
+}
+.tabs-content__text {
+  font-size: 18px;
+  max-width: 320px;
+  margin-bottom: 90px;
+}
+.button {
+  border-radius: 6px;
+  background-color: #fcde29;
+  padding: 16px 33px;//задаем отступ сверху и снизу по 16 пикселей, а по бокам по 33
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+}
