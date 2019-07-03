@@ -9,6 +9,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #272727;
   padding-top: 55px;
+  padding-bottom: 40px;
 }
 
 .header {
@@ -47,6 +48,10 @@ body {
   color: #95989a;
   text-decoration: none;
   margin-right: 20px;
+  transition: 0.4s;
+}
+.nav__link:hover {
+  color: #3d5260;
 }
 
 .login {
@@ -78,6 +83,11 @@ body {
 .tabs-menu__item {
   margin-left: 15px;
   position: relative;
+  font-weight: 400;
+  transition: all;
+}
+.tabs-menu__item:hover{
+  font-weight: 600;
 }
 
 .tabs-menu__item:after {
@@ -89,13 +99,13 @@ body {
   height: 4px;
   width: 0%;
   background-color: #fcde29;
-  transition: width 0.4s;
+  transition: 0.4s;
 }
 .tabs-menu__item:hover:after {
   width: 100%;
 }
 .tabs-content {
-  background: #f2f4ff url(image/bigbank.png) no-repeat bottom right 135px;
+  background: #f2f4ff url(../styles/image/bigbank.png) no-repeat bottom right 135px;
   border-radius: 10px;
   padding-top: 40px;
   padding-left: 45px;
