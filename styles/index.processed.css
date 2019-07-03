@@ -102,6 +102,10 @@ body {
   padding-right: 45px;
   padding-bottom: 43px;
   margin-bottom: 65px;
+  transition: 1.8s;
+}
+.tabs-content:hover {
+  background-color: #fffee6;
 }
 
 .tabs-content__title {
@@ -121,15 +125,19 @@ body {
   font-size: 16px;
   font-weight: 700;
   border: none;
-  transition: 0.8s;
+  transition: 0.4s;
 }
 .button:hover {
-  border-radius: 6px;
   background-color: #9cdd6a;
-  padding: 19px 36px;
-  font-size: 19px;
-  font-weight: 900;
-  border: none;
+  box-shadow:
+    1px 1px #53ea93,
+    2px 2px #53ea93,
+    3px 3px #53ea93,
+    4px 4px #53ea93,
+    5px 5px #53ea93,
+    6px 6px #53ea93,
+    7px 7px #53ea93;
+  transform: translateX(-7px);
 }
 
 .section-title {
@@ -156,13 +164,21 @@ body {
   background-repeat: no-repeat;
   background-position: center right 85px;
   margin-bottom: 40px;
+  transition: 1s;
+}
+.card_bottom:hover {
+  background-color: #fffee6;
 }
 .section__card {
   margin-bottom: 40px;
   margin-right: 50px;
+  transition: 0.8s;
 }
 .section__card:last-child {
   margin-right: 0;
+}
+.section__card:hover {
+  background-color: #fffee6;
 }
 .card-wrap {
   display: flex;
@@ -182,6 +198,10 @@ body {
   height: 260px;
   padding: 0;
   position: relative;
+  transition: 0.5s;
+}
+.best-card:hover {
+  background-color: #fffee6;
 }
 .best-card__image {
   position: absolute;
