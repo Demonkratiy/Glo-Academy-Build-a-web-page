@@ -89,13 +89,13 @@ body {
   height: 4px;
   width: 0%;
   background-color: #fcde29;
-  transition: width 0.2s;
+  transition: width 0.4s;
 }
 .tabs-menu__item:hover:after {
   width: 100%;
 }
 .tabs-content {
-  background: #f2f4ff url("https://i.imgur.com/iBd59zk.png") no-repeat bottom right 135px;
+  background: #f2f4ff url(styles\image\bigbank.png) no-repeat bottom right 135px;
   border-radius: 10px;
   padding-top: 40px;
   padding-left: 45px;
@@ -120,6 +120,15 @@ body {
   padding: 16px 33px;
   font-size: 16px;
   font-weight: 700;
+  border: none;
+  transition: 0.8s;
+}
+.button:hover {
+  border-radius: 6px;
+  background-color: #9cdd6a;
+  padding: 19px 36px;
+  font-size: 19px;
+  font-weight: 900;
   border: none;
 }
 
