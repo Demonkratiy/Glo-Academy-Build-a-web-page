@@ -95,7 +95,7 @@ body {
   width: 100%;
 }
 .tabs-content {
-  background: #f2f4ff url(styles\image\bigbank.png) no-repeat bottom right 135px;
+  background: #f2f4ff url(image/bigbank.png) no-repeat bottom right 135px;
   border-radius: 10px;
   padding-top: 40px;
   padding-left: 45px;
@@ -152,7 +152,7 @@ body {
   font-size: 16px;
 }
 .card_bottom {
-  background-image: url('https://i.imgur.com/iFdkIbF.png');
+  background-image: url(image/coins_rain.png);
   background-repeat: no-repeat;
   background-position: center right 85px;
   margin-bottom: 40px;
@@ -193,7 +193,7 @@ body {
   right: 0;
 }
 .best-card__image__center {
-  background-image: url('https://i.imgur.com/fw19w7u.png');
+  background-image: url(image/bank_simple.png);
   background-position: bottom center;
   background-repeat: no-repeat;
 }
