@@ -76,7 +76,7 @@
     <div class="container">
       <h2 class="section-title best__title">Лучшая банка в мире</h2>
       <span class="section-subtitle best__subtitle">По версии мамы, бабушки и тёти</span>
-      <div class="card-wrap">
+      <div class="card-wrap best__card-wrap">
         <div class="card-block best__card-block">
           <div class="card best-card">
             <img src=styles\image\bank_paper.png alt="" class="best-card__image">
@@ -124,7 +124,7 @@
       </div>
       <div class="row">
         <div class="col-100">
-          <input type="date" class="input form__input" placeholder="Дата рождения">
+          <input type="text" class="input form__input" placeholder="Дата рождения" onfocus="(this.type='date')" onblur="(this.type='text')"><!-- через свойства onfocus и onblur переключаем тип поля -->
         </div>
       </div>
       <div class="button-block">
